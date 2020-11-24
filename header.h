@@ -19,5 +19,5 @@ struct sommet i;
 struct sommet j;
 };
 
-
+//modif
 #endif //TP_GRAPHE_HEADER_H
