@@ -10,5 +10,6 @@ int main()
     printf("Hello, World!\n");
     printf("salut j'ai reparer ton pb");
     printf("coucou nephy");
+    printf("Merci Nekyo");
     return 0;
 }
