@@ -5,8 +5,9 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     printf("Hello, World!\n");
-    printf("test");
+    printf("salut j'ai reparer ton pb");
     return 0;
 }
