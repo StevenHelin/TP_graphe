@@ -7,17 +7,22 @@
 #ifndef TP_GRAPHE_HEADER_H
 #define TP_GRAPHE_HEADER_H
 
+#include <stdlib.h>
+#include <stdio.h>
 
-typedef struct sommet {
-int id;
-};
+typedef struct
+{
+    int id;
+    int distance;
+} Arc;
 
-typedef struct arcs {
-int id;
-int distance;
-struct sommet i;
-struct sommet j;
-};
+typedef struct
+{
+    int n; //Nombre de sommets
+    Arc **M;
+} MATRICE;
 
-//modif
+typedef int* Sommet;
+
+
 #endif //TP_GRAPHE_HEADER_H
